@@ -14,9 +14,9 @@ namespace MovieApp.Controllers
         {
             return "hi its me";
         }
-        public string Wel()
+        public IActionResult Wel()
         {
-            return "this is well";
+            return View();
         }
     }
 }
